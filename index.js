@@ -6,7 +6,7 @@ function destructivelyAppendKitten(name) {
   return kittens
 }
 function destructivelyPrependKitten(name) {
-  kittens.unshift('Bob')
+  kittens.unshift(name)
   return kittens
 }
 function destructivelyRemoveLastKitten() {
@@ -19,7 +19,7 @@ function destructivelyRemoveFirstKitten() {
 }
 function appendKitten(name) {
   var array = kittens.push('Broom')
-  months.splice(4, 1, 'May');
+  // months.splice(4, 1, 'May');
   return array
 }
 
