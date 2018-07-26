@@ -19,6 +19,7 @@ function destructivelyRemoveFirstKitten() {
 }
 function appendKitten(name) {
   var array = kittens.push('Broom')
+  months.splice(4, 1, 'May');
   return array
 }
 
