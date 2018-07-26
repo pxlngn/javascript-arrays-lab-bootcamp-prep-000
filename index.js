@@ -2,7 +2,7 @@
 
 
 function destructivelyAppendKitten(name) {
-  kittens.push('Ralph')
+  kittens.push(name)
   return kittens
 }
 function destructivelyPrependKitten(name) {
